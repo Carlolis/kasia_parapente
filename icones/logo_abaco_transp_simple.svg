@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.78 51.21">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Chillax-Medium, Chillax;
+        font-size: 22.59px;
+        font-weight: 500;
+        stroke: #113343;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #1c2340;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(2.98 44.85) scale(.98 1)"><tspan x="0" y="0">abaco</tspan></text>
+  </g>
+  <g>
+    <line class="cls-3" x1=".56" y1="30.01" x2="35.95" y2="7.92"/>
+    <line class="cls-3" x1="35.95" y1="7.92" x2="36.11" y2="7.81"/>
+    <line class="cls-3" x1="67.45" y1="13.9" x2="67.18" y2="14.46"/>
+    <line class="cls-3" x1="67.18" y1="14.46" x2="56.45" y2="36.35"/>
+    <line class="cls-3" x1="36.01" y1="8.07" x2="35.93" y2="14.76"/>
+    <line class="cls-3" x1="35.61" y1="15.04" x2="35.64" y2="15.04"/>
+    <line class="cls-3" x1="67.18" y1="14.46" x2="67.28" y2="14.46"/>
+    <line class="cls-3" x1="67.18" y1="14.46" x2="35.64" y2="15.04"/>
+    <line class="cls-3" x1="35.95" y1="7.92" x2="35.76" y2="7.88"/>
+    <line class="cls-3" x1="35.95" y1="7.92" x2="65.85" y2="13.9"/>
+    <line class="cls-3" x1="31.78" y1=".23" x2="32.02"/>
+    <line class="cls-3" x1=".13" y1="30.41" x2="31.78" y2=".23"/>
+    <line class="cls-3" x1="31.78" y1=".23" x2="66.86" y2="14.15"/>
+    <line class="cls-3" x1="31.78" y1=".23" x2="31.49" y2=".12"/>
+    <line class="cls-3" x1="35.64" y1="15.04" x2="36.11" y2="14.84"/>
+    <line class="cls-3" x1="35.64" y1="15.04" y2="30.51"/>
+  </g>
+</svg>

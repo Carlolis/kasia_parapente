@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="section1.css" />
+    <link rel="stylesheet" href="section_offre.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
+    <!-- <script src="myscripts.js"></script> -->
+
+    <!--
+        fonts
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="hero">
+      <header>
+        <nav>
+          <img src="icones/logo_indesign.svg" alt="" class="logo" />
+          <div class="hamburger hamburger--squeeze is-active hover-target">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
+          <div class="categories cursor-scale small">
+            <a href="" id="stages_nav" class="hover-this"
+              ><span> Stages</span></a
+            >
+
+            <a href="" class="cursor-scale small">Baptêmes</a>
+
+            <a href="">Voyages</a>
+
+            <a href="">Bons cadeau</a>
+
+            <a href="">Infos</a>
+
+            <a href="">Team building</a>
+          </div>
+
+          <div class="social_media">
+            <a href="#" class="hover-this">
+              <span
+                ><img
+                  id="fb"
+                  src="icones/facebook_logo.svg"
+                  alt="facebook" /></span
+            ></a>
+            <img id="ig" src="icones/instagram_logo.svg" alt="instagram" />
+            <img id="yt" src="icones/tripadvisor_logo.svg" alt="youtube" />
+          </div>
+        </nav>
+      </header>
+      <div class="icones-fixes">
+        <div class="rs">
+          <div class="search-container">
+            <form action="/search" method="get">
+              <input
+                class="search expandright"
+                id="searchright"
+                type="text"
+                name="search"
+                placeholder="Chercher"
+                onkeyup="search_parapente()"
+              />
+              <label class="button searchbutton" for="searchright">
+                <span class="mglass"
+                  ><img src="icones/search.svg" alt="" id="search_icon" /></span
+              ></label>
+            </form>
+          </div>
+
+          <!-- <div class="search"></div>
+              <div class="search-container">
+                <div class="search-icon">
+
+                 
+                </div>
+                <div class="search-area">
+                  <input type="text" placeholder="Enter your search query">
+                  <button class="search-submit">Submit</button> -->
+        </div>
+
+        <div>
+          <img class="rs" id="shop" src="icones/shopping-cart.svg" alt="" />
+        </div>
+        <div>
+          <img class="rs" id="user" src="icones/user.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="hero_box">
+        <h1>à Bout d’Aile Comme un oiseau</h1>
+        <h2>Une école de parapente dans les Hautes -Pyrenées</h2>
+        <div id="btn-hero" class="type3">
+          <a href=""> Découvrir</a>
+        </div>
+        <h3>Hautes Pyrénées- Val D’Azun - Aucun - Argelès</h3>
+      </div>
+    </section>
+    <section id="viniettes">
+      <div id="v_box">
+        <div>
+          <img src="icones/viniettte-montagnes.svg" alt="" />
+          <p>Une école locale</p>
+        </div>
+        <div>
+          <img src="icones/viniette-reservation.svg" alt="" />
+          <p>Réservation en ligne</p>
+        </div>
+        <div>
+          <img src="icones/viniettte-groupes.svg" alt="" />
+          <p>Forfaits des groupes</p>
+        </div>
+        <div>
+          <img src="icones/viniettte-paiement.svg" alt="" />
+          <p>Paiement sécurisé</p>
+        </div>
+      </div>
+    </section>
+    <section id="offre">
+      <div class="titre">
+        <div class="cross"></div>
+        <h4>Notre offre</h4>
+      </div>
+      <div id="boxes_offre">
+        <div class="box_offre">
+          <img src="img/stages-offre.png" alt="" />
+          <h5 class="parapente">Stages</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+            iaculis urna ac at integer. Rhoncus morbi ac at integer.
+          </p>
+          <a href="" class="btn_voir type4">Voir</a>
+        </div>
+        <div class="box_offre">
+          <img src="img/baptemes-offre.png" alt="" />
+          <h5>Baptêmes</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+            iaculis urna ac at integer. Rhoncus morbi ac at integer.
+          </p>
+          <a href="" class="btn_voir type4">Voir</a>
+        </div>
+        <div class="box_offre">
+          <img src="img/voyages-offre.png" alt="" />
+          <h5>Voyages</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+            iaculis urna ac at integer. Rhoncus morbi ac at integer.
+          </p>
+          <a href="" class="btn_voir type4">Voir</a>
+        </div>
+        <div class="box_offre">
+          <img src="img/team-offre.png" alt="" />
+          <h5>Groupes</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+            iaculis urna ac at integer. Rhoncus morbi ac at integer.
+          </p>
+          <a href="" class="btn_voir type4">Voir</a>
+        </div>
+      </div>
+    </section>
+    <section id="ecole">
+      <div class="titre">
+        <div class="cross"></div>
+        <h4>école ABACO</h4>
+
+        <img
+          src="icones/viniette_parapente.svg"
+          alt=""
+          class="viniette_titre"
+        />
+      </div>
+      <!-- <img src="icones/montagnes_fond.svg" alt="" class="form-fond" /> -->
+      <div class="flexBoxcolumn">
+        <div id="ecole_box">
+          <div id="photo_box">
+            <div class="filtered">
+              <img src="img/ecole_image.png" alt="" id="ecole_img" />
+            </div>
+          </div>
+          <div class="text_box">
+            <h6>Notre histoire</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+              iaculis urna ac at integer. Lorem ipsum dolor sit amet
+              consectetur. Rhoncus morbi mattis ut iaculis urna ac at integer.
+              Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+              iaculis urna ac at integer. Lorem ipsum dolor sit amet
+              consectetur. Rhoncus morbi mattis ut iaculis urna ac at integer.
+            </p>
+            <h6>Équipe</h6>
+            <p>
+              Lorem ipsum dolor sit amet <strong> consectetur.</strong> Rhoncus
+              morbi mattis ut iaculis urna ac at <strong> integer.</strong>
+              Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+              iaculis urna ac at integer. Lorem ipsum dolor sit amet
+              consectetur. Rhoncus morbi mattis ut iaculis urna ac at integer.
+            </p>
+          </div>
+        </div>
+        <!-- -->
+        <div id="test">
+          <a href="" class="type4" id="btn-ecole">Découvrir notre école</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="cadeau">
+      <div class="titre">
+        <img
+          src="icones/viniette-gift.svg"
+          alt=""
+          id="icon_gift"
+          class="viniette_titre"
+        />
+        <div class="cross"></div>
+
+        <h4 id="proches">Envie de faire plaisir à vos proches ?</h4>
+      </div>
+
+      <div class="flexBoxcolumn">
+        <div class="cadeau-box">
+          <div class="box-text">
+            <h5>Offrir une carte cadeau !</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+              iaculis urna ac at integer.
+            </p>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+                iaculis urna ac at integer.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+                iaculis urna ac at integer.
+              </li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+              iaculis urna ac at integer.
+            </p>
+          </div>
+          <div class="box-photo">
+            <div class="filtered">
+              <img src="img/cadeau1.png" alt="" id="cadeau1" />
+            </div>
+            <!-- <div id="cadeau2">
+              <img src="img/cadeau2_bi.jpg" alt="" />
+            </div> -->
+          </div>
+        </div>
+        <div>
+          <a href="" class="type3" id="btn_cadeau">Acheter une carte cadeau</a>
+        </div>
+      </div>
+    </section>
+    <section id="avis">
+      <div class="titre">
+        <div class="cross"></div>
+        <h4>Ils nous ont fait confiance</h4>
+        <img src="icones/viniette-avis.svg" alt="" class="viniette_titre" />
+      </div>
+      <div class="flex_slider">
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <div class="slider">
+          <div class="slide">
+            <div><img src="img/avatar_avis1.png" alt="" class="avatar" /></div>
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <div class="comment">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia cons
+            </div>
+            <div class="reviewer-info">Ana Lacroix</div>
+          </div>
+          <div class="slide">
+            <img src="img/avatar_avis1.png" alt="" class="avatar" />
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <div class="comment">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia cons
+            </div>
+            <div class="reviewer-info">John W. from Charlotte</div>
+          </div>
+
+          <div class="slide">
+            <img src="img/avatar_avis2.png" alt="" class="avatar" />
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <div class="comment">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia cons
+            </div>
+            <div class="reviewer-info">John W. from Charlotte</div>
+          </div>
+          <div class="slide">
+            <img src="img/avatar_avis4.png" alt="" class="avatar" />
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <div class="comment">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia cons
+            </div>
+            <div class="reviewer-info">John W. from Charlotte</div>
+          </div>
+
+          <div class="slide">
+            <img src="img/avatar_avis5.png" alt="" class="avatar" />
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <div class="comment">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia cons
+            </div>
+            <div class="reviewer-info">John W. from Charlotte</div>
+          </div>
+          <div class="slide">
+            <img src="img/avatar_avis6.png" alt="" class="avatar" />
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <span class="comment"
+              >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia cons</span
+            >
+            <span class="reviewer-info">John W. from Charlotte</span>
+          </div>
+
+          <div class="dots"></div>
+        </div>
+
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+      </div>
+
+      <!-- <div id="montagne_box">
+        <img src="icones/montagnes_fond.svg" alt="" class="vector_montagnes" />
+
+        <img src="icones/montagnes_fond.svg" alt="" class="vector_montagnes" />
+      </div>-->
+
+      <!-- <div class="container">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="slider_container">
+          <div class="slides fade" style="display: block">
+            <div class="review-item">
+              <img src="img/avatar_avis1.png" alt="" class="avatar" />
+              <span class="star-rating"
+                >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+              ><span class="comment"
+                >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia cons</span
+              >
+              <span class="reviewer-info">John W. from Charlotte</span>
+            </div>
+            <div class="review-item">
+              <img src="img/avatar_avis2.png" alt="" class="avatar" />
+              <span class="star-rating">&#9733;&#9733;&#9733;&#9733;</span
+              ><span class="comment"
+                >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia cons</span
+              >
+              <span class="reviewer-info"
+                >By Richard S. from Kannapolis, NC</span
+              >
+            </div>
+            <div class="review-item">
+              <img src="img/avatar_avis3.png" alt="" class="avatar" />
+              <span class="star-rating"
+                >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+              >
+              <span class="comment"
+                >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia cons</span
+              >
+              <span class="reviewer-info">By Mike from Kannapolis, NC</span>
+            </div>
+          </div>
+
+          <div class="slides fade" style="display: none">
+            <div class="review-item">
+              <img src="img/avatar_avis5.png" alt="" class="avatar" />
+              <span class="star-rating"
+                >&#9733;&#9733;&#9733;&#9733;&#9733;
+              </span>
+              <span class="comment"
+                >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia cons</span
+              >
+              <span class="reviewer-info">By Second Page Reviewer, NC</span>
+            </div>
+            <div class="review-item">
+              <img src="img/avatar_avis4.png" alt="" class="avatar" />
+              <span class="star-rating">&#9733;&#9733;&#9733;&#9733;</span>
+              <span class="comment"
+                >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia cons</span
+              >
+              <span class="reviewer-info">By Second Page Reviewer, NC</span>
+            </div>
+            <div class="review-item">
+              <img src="img/avatar_avis6.png" alt="" class="avatar" />
+              <span class="star-rating"
+                >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+              >
+              <span class="comment"
+                >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia cons</span
+              >
+              <span class="reviewer-info">By Second Page Reviewer, NC</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider_dots">
+          <span
+            class="slider_dots--dot"
+            id="1"
+            onclick="dotPageChange(1)"
+          ></span>
+          <span
+            class="slider_dots--dot"
+            id="2"
+            onclick="dotPageChange(2)"
+          ></span>
+        </div>
+      </div> -->
+
+      <!-- <img src="icones/arrow_left.svg" alt="" class="arrow" id="arrow_left" />
+      <div class="hero_box">
+        <div id="avis_total">
+          <div class="avis_container">
+            <img src="img/avatar_avis1.png" alt="" class="avatar" />
+            <img src="" alt="" class="stars" />
+            <p class="comment">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+            <p class="name_avis">Elisa Grant</p>
+          </div>
+          <div class="avis_container">
+            <img src="img/avatar_avis2.png" alt="" class="avatar" />
+            <img src="" alt="" class="stars" />
+            <p class="comment">
+              met minim mollit non deserunt ullamco est sit aliqua dolor do amet
+              sint. Velit officia consequat duis enim velit mollit.
+            </p>
+            <p class="name_avis">John Smith</p>
+          </div>
+          <div class="avis_container">
+            <img src="img/avatar_avis3.png" alt="" class="avatar" />
+            <img src="" alt="" class="stars" />
+            <p class="comment">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+            <p class="name_avis">Elisa Gran</p>
+          </div>
+        </div>
+
+        <img src="icones/arrow_right.svg" alt="" class="arrow" id="arrow_right"
+      </div> -->
+      <div id="buttons">
+        <a href="" id="btn_avis1" class="type4">Voir tous les témoinages</a>
+        <a href="" id="btn_avis2" class="type4">Déposer un avis</a>
+      </div>
+    </section>
+    <section id="paysages">
+      <div class="titre">
+        <div class="cross"></div>
+        <img src="icones/viniette-paysages.svg" alt="" class="viniette_titre" />
+        <div>
+          <h4>Découvrez les paysages des Hautes-Pyrénées</h4>
+        </div>
+      </div>
+      <!-- <img src="icones/vector-paysages.svg" alt="" class="form-fond" /> -->
+
+      <div class="flexBoxcolumn">
+        <div class="cadeau-box">
+          <div class="box-photo">
+            <div class="filtered">
+              <img src="img/paysage.png" alt="" id="paysages_photo" />
+            </div>
+          </div>
+          <div class="box-text">
+            <h6>Hautes-Pyrenées, val d’Azun</h6>
+            <p>
+              orem ipsum dolor sit amet <strong> consectetur. </strong> Rhoncus
+              morbi mattis ut iaculis urna ac at integer. Rhoncus morbi mattis
+              ut iaculis urna ac.
+            </p>
+            <h6>Paysages à couper la souffle !</h6>
+            <p>
+              orem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+              iaculis urna ac at integer. Lorem ipsum dolor sit amet
+              consectetur. Rhoncus morbi mattis ut iaculis urna ac at integer.
+              Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+              iaculis urna ac at integer. Lorem ipsum dolor sit amet
+              consectetur. Rhoncus morbi mattis ut iaculis urna ac at integer.
+            </p>
+          </div>
+        </div>
+        <div class="btns">
+          <a href="" id="btn_paysage1" class="type3">Voir les sites des vols</a>
+          <a href="" id="btn_paysage2" class="type3">Voir la météo</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="titre">
+        <div class="cross"></div>
+        <h4>Trouvez nous et contacter</h4>
+
+        <img src="icones/viniettte-contact.svg" alt="" class="viniette_titre" />
+      </div>
+
+      <div class="flexBox">
+        <div class="filtered">
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.2585448022314!2d-0.1948536!3d42.972827099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd57c4504eb20363%3A0x5d7fe7dd0db12f4c!2s39%20Rte%20d&#39;Azun%2C%2065400%20Aucun!5e0!3m2!1sen!2sfr!4v1689063497779!5m2!1sen!2sfr"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="carte"
+            ></iframe>
+          </div>
+        </div>
+        <!-- <img src="img/map-web.png" alt="" class="carte" /> -->
+        <div id="textBox_contact">
+          <h6>
+            ABACO <br />
+            A BOUT D'AILE COMME UN OISEAU
+          </h6>
+          <div class="flexBox">
+            <img src="icones/map-tag.svg" alt="" class="icones_contact" />
+            <address>
+              39 route d'Azun <br />
+              65400 - AUCUN
+            </address>
+          </div>
+          <div class="flexBox">
+            <img src="icones/phone.svg" alt="" class="icones_contact" />
+            <a href="tel:06 52 84 62 36"> <strong>06 52 84 62 36</strong> </a>
+          </div>
+          <div class="flexBox">
+            <img src="icones/mail.svg" alt="" class="icones_contact" />
+            <a href="mailto:abaco@gmail.com">
+              <strong>abaco@gmail.com</strong></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <span class="wrapper">
+      <section id="pilote" class="section static bg1">
+        <div class="titre">
+          <div class="cross"></div>
+          <img
+            src="icones/viniettte-pilote.svg"
+            alt=""
+            class="viniette_titre"
+          />
+          <h4>vous aussi, devenez pilote de parapente !</h4>
+        </div>
+        <div class="flexBoxcolumn">
+          <div class="flexBox" id="brevetFlex">
+            <div class="brevet_box">
+              <img src="img/brevet1.png" alt="" class="brevet_img" />
+              <h5>Brevet 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+                iaculis urna ac at
+              </p>
+              <a href="" class="type4 btn_voir">voir</a>
+            </div>
+            <div class="brevet_box" id="brevet2">
+              <img src="img/brevet2.png" alt="" class="brevet_img" />
+              <h5>Brevet 2</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+                iaculis urna ac at
+              </p>
+              <a href="" class="type4 btn_voir">voir</a>
+            </div>
+            <div class="brevet_box">
+              <img src="img/brevet3.png" alt="" class="brevet_img" />
+              <h5>Brevet 3</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Rhoncus morbi mattis ut
+                iaculis urna ac at
+              </p>
+              <a href="" class="type4 btn_voir">voir</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="montagnes">
+     <img src="img/mountains_outline.png" alt="" id="montagnes-fond" /> -->
+      </section>
+
+      <section
+        id="footer"
+        class="text--center text--gold clipPath--mtn2--T pad--5T section parallax bg2"
+      >
+        <!--
+      -->
+        <div class="titre">
+          <img src="icones/logo_indesign.svg" alt="" class="logo" />
+          <div>
+            <h6 id="footer_abaco">
+              abaco <br />
+              à bout d’aile comme un oiseau
+            </h6>
+
+            <p>école de parapente dans les Hautes Pyrénées</p>
+          </div>
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <h6>Infos utiles</h6>
+            <li><a href="">Mon compte</a></li>
+            <li><a href="">Calendrier</a></li>
+            <li><a href="">Carte cadeau</a></li>
+            <li><a href="">Hébergements</a></li>
+            <li><a href="">Liens utiles</a></li>
+            <li><a href="">Méteo</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+
+          <ul>
+            <h6>Activités</h6>
+            <li><a href="">Stages</a></li>
+            <li><a href="">Baptêmes</a></li>
+            <li><a href="">Voyages</a></li>
+            <li><a href="">Groupes</a></li>
+            <li><a href="">Brevet</a></li>
+          </ul>
+          <ul>
+            <h6>L’école</h6>
+            <li><a href="">A propos</a></li>
+            <li><a href="">Tarifs</a></li>
+            <li><a href="">Avis clients</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <ul>
+            <h6>Horaires</h6>
+            <li>Du mardi au dimanche</li>
+            <li>de 9h à 18h</li>
+            <div class="flexBoxcolumn">
+              <h6>Newseltter</h6>
+              <label for="email"> Restons connecté</label>
+              <input
+                type="email"
+                id="email"
+                pattern=".+@globex\.com"
+                size="30"
+                placeholder="example@email.com"
+              />
+              <a href="" id="btn-newsletter" class="type4">Je m'inscris!</a>
+            </div>
+          </ul>
+          <ul>
+            <h6>Contact</h6>
+            <li>
+              <img
+                src="icones/map-tag.svg"
+                alt=""
+                class="icon_contact"
+                id="location"
+              />39 route d'Azun <br />
+              65400 - AUCUN
+            </li>
+            <li>
+              <img
+                src="icones/phone.svg"
+                alt=""
+                class="icon_contact"
+                id="phone"
+              />06 52 84 62 36
+            </li>
+            <li id="mail_foot">
+              <img
+                src="icones/mail.svg"
+                alt=""
+                class="icon_contact"
+                class="id"
+                ="mail"
+              />abaco@gmail.com
+            </li>
+          </ul>
+        </div>
+      </section>
+    </span>
+    <!-- <div class="cursor"></div> -->
+    <!-- 
+    <script>
+      window.onload = function () {
+        alert("Bienvenue sur notre site !");
+        console.log("Le site s'est chargé complètement.");
+      };
+      function Cursor() {
+        const cursorDotOutline = React.useRef();
+        const cursorDot = React.useRef();
+        const requestRef = React.useRef();
+        const previousTimeRef = React.useRef();
+        let [mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 });
+        const [width, setWidth] = React.useState(window.innerWidth);
+        const [height, setHeight] = React.useState(window.innerHeight);
+        let cursorVisible = React.useState(false);
+        let cursorEnlarged = React.useState(false);
+
+        /**
+         * Mouse Moves
+         */
+        const onMouseMove = (event) => {
+          const { pageX: x, pageY: y } = event;
+          setMousePosition({ x, y });
+          positionDot(event);
+        };
+        const onMouseEnter = () => {
+          cursorVisible.current = true;
+          toggleCursorVisibility();
+        };
+        const onMouseLeave = () => {
+          cursorVisible.current = false;
+          toggleCursorVisibility();
+        };
+        const onMouseDown = () => {
+          cursorEnlarged.current = true;
+          toggleCursorSize();
+        };
+        const onMouseUp = () => {
+          cursorEnlarged.current = false;
+          toggleCursorSize();
+        };
+        const onResize = (event) => {
+          setWidth(window.innerWidth);
+          setHeight(window.innerHeight);
+        };
+
+        /**
+         * Hooks
+         */
+        React.useEffect(() => {
+          document.addEventListener("mousemove", onMouseMove);
+          document.addEventListener("mouseenter", onMouseEnter);
+          document.addEventListener("mouseleave", onMouseLeave);
+          document.addEventListener("mousedown", onMouseDown);
+          document.addEventListener("mouseup", onMouseUp);
+          window.addEventListener("resize", onResize);
+          requestRef.current = requestAnimationFrame(animateDotOutline);
+
+          // Handle Link Hovers
+          handleLinkHovers();
+
+          return () => {
+            document.removeEventListener("mousemove", onMouseMove);
+            document.removeEventListener("mouseenter", onMouseEnter);
+            document.removeEventListener("mouseleave", onMouseLeave);
+            document.removeEventListener("mousedown", onMouseDown);
+            document.removeEventListener("mouseup", onMouseUp);
+            window.removeEventListener("resize", onResize);
+            cancelAnimationFrame(requestRef.current);
+          };
+        }, []);
+      }
+
+      // let { x, y } = mousePosition;
+      // const winDimensions = { width, height };
+      // let endX = winDimensions.width / 2;
+      // let endY = winDimensions.height / 2;
+
+      /**
+       * Position Dot (cursor)
+       * @param {event}
+       */
+      function positionDot(e) {
+        cursorVisible.current = true;
+        toggleCursorVisibility();
+        // Position the dot
+        endX = e.pageX;
+        endY = e.pageY;
+        cursorDot.current.style.top = endY + "px";
+        cursorDot.current.style.left = endX + "px";
+      }
+
+      /**
+       * Toggle Cursor Visiblity
+       */
+      function toggleCursorVisibility() {
+        if (cursorVisible.current) {
+          cursorDot.current.style.opacity = 1;
+          cursorDotOutline.current.style.opacity = 1;
+        } else {
+          cursorDot.current.style.opacity = 0;
+          cursorDotOutline.current.style.opacity = 0;
+        }
+      }
+
+      /**
+       * Toggle Cursor Size
+       */
+      function toggleCursorSize() {
+        if (cursorEnlarged.current) {
+          cursorDot.current.style.transform =
+            "translate(-50%, -50%) scale(0.7)";
+          cursorDotOutline.current.style.transform =
+            "translate(-50%, -50%) scale(5)";
+        } else {
+          cursorDot.current.style.transform = "translate(-50%, -50%) scale(1)";
+          cursorDotOutline.current.style.transform =
+            "translate(-50%, -50%) scale(1)";
+        }
+      }
+
+      /**
+       * Handle LInks
+       * Applies mouseover/out hooks on all links
+       * to trigger cursor animation
+       */
+      function handleLinkHovers() {
+        document.querySelectorAll("a").forEach((el) => {
+          el.addEventListener("mouseover", () => {
+            cursorEnlarged.current = true;
+            toggleCursorSize();
+          });
+          el.addEventListener("mouseout", () => {
+            cursorEnlarged.current = false;
+            toggleCursorSize();
+          });
+        });
+      }
+
+      /**
+       * Animate Dot Outline
+       * Aniamtes cursor outline with trailing effect.
+       * @param {number} time
+       */
+      //   const animateDotOutline = (time) => {
+      //     if (previousTimeRef.current !== undefined) {
+      //       x += (endX - x) / 8;
+      //       y += (endY - y) / 8;
+      //       cursorDotOutline.current.style.top = y + "px";
+      //       cursorDotOutline.current.style.left = x + "px";
+      //     }
+      //     previousTimeRef.current = time;
+      //     requestRef.current = requestAnimationFrame(animateDotOutline);
+      //   };
+
+      //   return (
+      //     <>
+      //       <div ref={cursorDotOutline} id="cursor-dot-outline" />
+      //       <div ref={cursorDot} id="cursor-dot" />
+      //     </>
+      //   );
+      // }
+
+      $(function () {
+        /** attendre chargement du DOM **/ /*** burger ***/ $(
+          ".hamburger"
+        ).click(function () {
+          $(this).toggleClass("is-active");
+        });
+      }); // fin chargement DOM
+
+      (function () {})();
+      {
+        const link = document.querySelectorAll("nav > .hover-this");
+        const cursor = document.querySelector(".cursor");
+
+        const animateit = function (e) {
+          const span = this.querySelector("span");
+          const { offsetX: x, offsetY: y } = e,
+            { offsetWidth: width, offsetHeight: height } = this,
+            move = 25,
+            xMove = (x / width) * (move * 2) - move,
+            yMove = (y / height) * (move * 2) - move;
+
+          span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+          if (e.type === "mouseleave") span.style.transform = "";
+        };
+
+        const editCursor = (e) => {
+          const { clientX: x, clientY: y } = e;
+          cursor.style.left = x + "px";
+          cursor.style.top = y + "px";
+        };
+
+        link.forEach((b) => b.addEventListener("mousemove", animateit));
+        link.forEach((b) => b.addEventListener("mouseleave", animateit));
+        window.addEventListener("mousemove", editCursor);
+      }
+
+      (function () {})();
+
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("slides");
+        let dots = document.getElementsByClassName("slider_dots--dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+      // Allows you to use the dots to navigate to the corresponding slide
+      function dotPageChange(n) {
+        let dots = document.getElementsByClassName("slider_dots--dot");
+        let i;
+        for (i = 0; i < dots.length; i++) {
+          if (dots[i].id == n) {
+            dots[i].className += " active";
+            currentSlide(n);
+          }
+        }
+      }
+
+      //Change the input to anything but true in order to stop the animation on the slides
+      let toggleSlide = true;
+
+      // Change the variable below to speed up/slow down the time between slides, 1 second = 1000
+      let timeBetweenSlideChange = 4000;
+
+      slideAnimation(toggleSlide);
+
+      function slideAnimation(boolean) {
+        if (boolean === true) {
+          let interval = window.setInterval(function () {
+            plusSlides(1);
+          }, timeBetweenSlideChange);
+
+          // Adding stop/start on hover to container
+          let container = document.querySelector(".container");
+          container.onmouseover = pauseSlides;
+          container.onmouseleave = resumeSlides;
+
+          // Adding stop/start on hover to the dots below slides
+          let dots = document.getElementsByClassName("slider_dots--dot");
+          for (i = 0; i < dots.length; i++) {
+            dots[i].onmouseenter = pauseSlides;
+            dots[i].onmouseleave = resumeSlides;
+          }
+
+          function pauseSlides() {
+            clearInterval(interval); // Clear the interval we set earlier
+          }
+
+          function resumeSlides() {
+            interval = window.setInterval(function () {
+              plusSlides(1);
+            }, timeBetweenSlideChange); // Restart the slides animation
+          }
+        } else {
+        }
+      }
+    </script> -->
+
+    <!-- <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+     -->
+    <script type="text/javascript" src="slider.js"></script>
+    <script>
+      // $(document).ready(function () {
+      //   $(".slider").slick({
+      //     dots: true,
+      //     arrows: false,
+      //     infinite: true,
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //   });
+      // });
+
+      $(function () {
+        /** attendre chargement du DOM **/ /*** burger ***/ $(
+          ".hamburger"
+        ).click(function () {
+          $(this).toggleClass("is-active");
+        });
+      }); // fin chargement DOM
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+#hero {
+  background: linear-gradient(
+      180deg,
+      rgba(34, 55, 65, 0) 50.6%,
+      rgba(18, 45, 57, 0.694981) 63%,
+      #0b2836 76.7%,
+      #103242 100%
+    ),
+    url("img/parapente_hero.webp"), no-repeat scroll center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#hero h3 {
+  margin-bottom: 10rem;
+}
