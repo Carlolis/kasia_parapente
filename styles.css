@@ -207,7 +207,6 @@ h2 {
 }
 
 h3 {
-
   height: 73px;
 
   font-family: "canelabold";
@@ -888,7 +887,6 @@ nav .categories a {
 #ecole {
   background: #fff6e0 url("icones/vector-paysages_bleu.svg") no-repeat left;
 
-  
   padding-bottom: 10rem;
 }
 
@@ -947,9 +945,9 @@ nav .categories a {
 }
 
 .filtered {
-  background-color: #1c6688;
   position: relative;
   margin: 5rem;
+  background-color: #1c6688;
 }
 .filtered #ecole_img {
   -webkit-filter: grayscale(100%);
@@ -975,17 +973,19 @@ nav .categories a {
 }
 
 .filtered #paysages_photo {
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.5;
 
   transition: all 0.8s ease-in-out;
 }
+
+#paysages_photo {
+  object-fit: cover;
+}
+
 #paysages_photo:hover {
-  -webkit-filter: grayscale(0);
   filter: grayscale(0);
   opacity: 1;
-  background-color: none;
 }
 .filtered:hover #ecole_img:hover {
   -webkit-filter: grayscale(0);
@@ -1034,7 +1034,6 @@ nav .categories a {
 
 #cadeau {
   background: #103242 url("icones/vector-paysages.svg") no-repeat right;
-
 
   padding-bottom: 15rem;
 }
@@ -1086,6 +1085,7 @@ nav .categories a {
 
 .box-text {
   /* border: 1px solid #fff6e0; */
+  width: 50%;
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -1102,7 +1102,7 @@ nav .categories a {
 .box-photo {
   background-color: #fff6e0;
   display: flex;
-  width: 60%;
+
   padding: 2rem;
 }
 
@@ -1144,7 +1144,7 @@ div#cadeau1:hover::after {
 
 #avis {
   background: #fff6e0 url("icones/montagnes_fond.svg") no-repeat center;
-  
+
   padding-bottom: 15rem;
   display: flex;
   flex-direction: column;
@@ -1652,7 +1652,7 @@ div.star-rating {
 
 #paysages {
   background: #103242 url("icones/vector-paysages.svg") no-repeat right;
-  
+
   padding-top: 5rem;
   padding-bottom: 10rem;
 }
@@ -1684,21 +1684,14 @@ div.star-rating {
 /* #paysage > .flexBoxcolumn > .cadeau-box > .box-text {
   padding-top: 3.2rem;
 } */
-#paysages.box-photo {
-  z-index: 1;
-}
 
 #paysages .box-photo img {
   display: flex;
   align-content: center;
-  padding: 2rem;
+
   /* position: relative;
   left: -200px;
   top: -100px; */
-}
-
-#paysages .filtered {
-  padding: 0;
 }
 
 /* #paysages .box-photo img:hover {
@@ -1746,7 +1739,6 @@ div.star-rating {
   background: #fff6e0 url("icones/montagnes_fond.svg") no-repeat 90% 80%;
 
   padding-bottom: 10rem;
-  
 }
 
 #contact h4 {
@@ -1811,7 +1803,6 @@ div.star-rating {
 #pilote {
   background: #103242;
   padding-bottom: 15rem;
-  
 }
 
 #pilote .flexBoxcolumn {
@@ -1905,7 +1896,6 @@ div.star-rating {
   padding-top: 10rem;
   background-color: #fff6e0;
   margin-top: 10rem;
-  
 }
 
 #footer_abaco {
