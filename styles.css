@@ -998,6 +998,14 @@ nav .categories a {
   object-fit: cover;
 }
 
+@media (max-width: 768px) {
+
+  #ecole_img {
+    width: 100%;
+  }
+
+}
+
 .filtered {
   position: relative;
   margin: 5rem;
@@ -1081,11 +1089,7 @@ nav .categories a {
 #btn-ecole:hover {
   background-color: var(--orange);
 }
-@media (max-width: 768px) {
-  #ecole_box {
-    flex-direction: column;
-  }
-}
+
 
 /* Cadeau*/
 

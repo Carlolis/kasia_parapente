@@ -95,14 +95,13 @@ div.star-rating {
   font-size: 1.4rem;
 }
 
-#buttons {
+#avis_buttons {
   margin: 5% 0 0 0;
-  width: 70%;
   display: flex;
   flex-direction: row;
 }
 #btn_avis1 {
-  width: 694px;
+  width: 50%;
   height: 68px;
   position: relative;
   border: none;
@@ -121,7 +120,7 @@ div.star-rating {
 }
 
 #btn_avis2 {
-  width: 694px;
+  width: 50%;
   height: 68px;
   position: relative;
   border: none;
@@ -155,6 +154,11 @@ div.star-rating {
 }
 
 @media (max-width: 768px) {
+
+  #avis_buttons {
+    flex-direction: column;
+  }
+
   .slider {
     min-width: 30rem;
     overflow-x: scroll;
