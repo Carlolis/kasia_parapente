@@ -1089,11 +1089,7 @@ nav .categories a {
 #btn-ecole:hover {
   background-color: var(--orange);
 }
-@media (max-width: 768px) {
-  #ecole_box {
-    flex-direction: column;
-  }
-}
+
 
 /* Cadeau*/
 
