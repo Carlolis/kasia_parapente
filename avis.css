@@ -154,6 +154,11 @@ div.star-rating {
 }
 
 @media (max-width: 768px) {
+
+  #avis_buttons {
+    flex-direction: column;
+  }
+
   .slider {
     min-width: 30rem;
     overflow-x: scroll;
