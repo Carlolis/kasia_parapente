@@ -43,7 +43,8 @@
 .footer-menu {
   display: flex;
   justify-content: center;
-  gap: 8rem;
+  gap: 5rem;
+  margin: 0 10% 0 10%;
 }
 
 #contact_footer li {
@@ -107,10 +108,12 @@ input {
 
 #footer {
   border: none;
-  min-height: 38vmax;
+
   padding-top: 5rem;
+
   position: relative;
 }
+
 /** Clip-Path based Mountains **/
 #mtn3,
 #mtnBorder4 {

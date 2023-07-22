@@ -13,7 +13,7 @@
   --cursor-size: 10px;
   --cursor-outline-size: 12px;
 }
-/*la site */
+/*le site */
 html {
   font-size: 62.5%;
 }
@@ -442,9 +442,9 @@ nav {
   align-items: right;
   justify-content: space-between;
   width: 10rem;
-  margin-right: 10rem;
+  margin-right: 5rem;
   padding-top: 7rem;
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 #fb {
   height: 32px;
@@ -522,7 +522,7 @@ nav.categories a {
 }
 
 .hamburger {
-  padding: 55px 15px;
+  padding: 25px 15px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -611,14 +611,7 @@ nav.categories a {
   transition: bottom 0.075s ease,
     transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-@media (max-width: 1110px) {
-  nav.categories a {
-    display: none;
-  }
-  .hamburger {
-    display: inline-block;
-  }
-}
+
 .hamburger {
   display: none;
 }
@@ -833,6 +826,54 @@ nav .categories a {
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  #hero {
+    background: linear-gradient(
+        180deg,
+        rgba(34, 55, 65, 0) 50.6%,
+        rgba(18, 45, 57, 0.694981) 63%,
+        #0b2836 76.7%,
+        #103242 100%
+      ),
+      url("img/parapente_hero.webp"), no-repeat scroll right;
+    background-size: cover;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--bleu);
+    margin: 2rem 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    margin: 0 2.5rem;
+  }
+  nav {
+    padding-top: 0;
+    background-color: var(--creme);
+  }
+  .logo {
+    padding-top: 0;
+    margin-left: 3rem;
+    width: 5rem;
+  }
+  .categories {
+    display: none;
+  }
+  .social_media {
+    display: none;
+  }
+  .icones-fixes {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+  }
+}
+
 /* Vigniettes*/
 
 .viniette_titre {
@@ -861,9 +902,12 @@ nav .categories a {
   flex: 0 1 100%;
 }
 
-@media (min-width: 780px) {
+@media (max-width: 768px) {
   #viniettes > #v_box > div {
     flex: 0 1 50%;
+  }
+  #v_box {
+    flex-direction: column;
   }
 }
 @media (min-width: 1280px) {
@@ -871,6 +915,7 @@ nav .categories a {
     flex: 0 1 25%;
   }
 }
+
 #viniettes > #v_box > div > p {
   color: #fff6e0;
   font-size: 2.4rem;
@@ -916,17 +961,17 @@ nav .categories a {
 #ecole_box {
   margin: 5% 10% 5% 10%;
   background: #fcdbbd;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
 .text_box {
   padding-top: 5rem;
   text-align: left;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-right: 5rem;
 }
 
 .text_box h4 {
@@ -950,7 +995,6 @@ nav .categories a {
   background-color: #1c6688;
 }
 .filtered #ecole_img {
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.5;
 
@@ -958,7 +1002,6 @@ nav .categories a {
 }
 
 .filtered #cadeau1 {
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.5;
 
@@ -1029,6 +1072,11 @@ nav .categories a {
 #btn-ecole:hover {
   background-color: var(--orange);
 }
+@media (max-width: 768px) {
+  #ecole_box {
+    flex-direction: column;
+  }
+}
 
 /* Cadeau*/
 
@@ -1079,18 +1127,16 @@ nav .categories a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-basis: 50% 50%;
-  margin: 5% 10% 5% 10%;
+  background-color: var(--creme);
+
+  margin: 10% 10% 5% 10%;
 }
 
 .box-text {
-  /* border: 1px solid #fff6e0; */
   width: 50%;
   padding: 5%;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  background-color: #fff6e0;
 }
 
 .box-text p,
@@ -1099,188 +1145,23 @@ nav .categories a {
   font-size: 1.6rem;
 }
 
-.box-photo {
-  background-color: #fff6e0;
-  display: flex;
-
-  padding: 2rem;
-}
-
 #cadeau1 {
   width: 100%;
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 div#cadeau1:hover::after {
   background-color: rgba(24, 17, 225, 0);
 }
 
-/* Avis*/
-
-#avis {
-  background: #fff6e0 url("icones/montagnes_fond.svg") no-repeat center;
-
-  padding-bottom: 15rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#avis .cross:after {
-  width: 800px;
-}
-
-#avis .hero_box {
-  margin-top: 19.8rem;
-  margin-bottom: 11.8rem;
-}
-
-#avis .titre h4 {
-  color: var(--bleu);
-}
-/* Container */
-.flex_slider {
-  display: flex;
-  align-content: space-between;
-  align-items: center;
-}
-
-.slider {
-  margin: 10rem;
-  min-width: 100rem;
-  position: relative;
-  max-width: 200rem;
-  height: 30rem;
-
-  overflow: hidden;
-  /*  */
-  /* IN THE END */
-  /* */
-}
-
-
-.slide {
-  position: absolute;
-
-  top: 0;
-  width: 31%;
-  height: 30rem;
-  padding: 2rem;
-
-  transition: transform 1s;
-  background-color: var(--bleu);
-}
-
-.slider__btn {
-  /* position: absolute;
-  top: 50%;
-  z-index: 10; */
-
-  border: none;
-  background: rgba(255, 255, 255, 0.7);
-  font-family: inherit;
-  color: #333;
-  border-radius: 50%;
-  height: 5.5rem;
-  width: 5.5rem;
-  font-size: 3.25rem;
-  cursor: pointer;
-}
-
-.dots {
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-
-.comment {
-  color: #f9f9f9;
-  font-family: Poppins;
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 2rem;
-  padding: 0.2rem 0.2rem 1rem 2rem;
-}
-div.star-rating {
-  padding-top: 5%;
-  color: #fcdbbd;
-  font-size: 25px;
-}
-
-.reviewer-info {
-  color: var(--rose);
-  font-family: poppins;
-  font-size: 1.4rem;
-}
-
-#buttons {
-  margin: 5% 0 0 0;
-  width: 100vh;
-  display: flex;
-  flex-direction: row;
-}
-#btn_avis1 {
-  width: 494px;
-  height: 68px;
-  position: relative;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  outline: none;
-  font-size: 18px;
-  margin: 0.8em;
-  padding: 1rem 1.5em;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  color: #103242;
-  text-align: center;
-  margin: 5rem;
-}
-
-#btn_avis2 {
-  width: 494px;
-  height: 68px;
-  position: relative;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  outline: none;
-  font-size: 18px;
-  margin: 0.8em;
-  padding: 1rem 1.5em;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  color: #103242;
-  text-align: center;
-  margin: 5rem;
-}
-
-#btn_avis2:hover {
-  background-color: #f1d3ce;
-}
-#btn_avis1:hover {
-  background-color: #f2f2f2;
-}
-
-.vector_montagnes {
-  width: 1388px;
-  height: 557px;
-}
-#montagne_box {
-  display: flex;
-}
-
 /* Paysages*/
 #paysages .box-text {
-  padding-left: 10rem;
+  /* padding-left: 10rem;
   padding-right: 9rem;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 5%; */
 }
 
 #paysages {
@@ -1293,19 +1174,25 @@ div.star-rating {
 #paysages .titre .cross {
   background: #fef8f2;
   left: 24rem;
-  top: 5rem;
+  top: 8rem;
+  height: 150px;
 }
 
 #paysages .titre .cross:after {
   background: #fef8f2;
   right: 1500rem;
   width: 100rem;
+  top: 100px;
 }
 
 #paysages h6 {
   padding-top: 5rem;
   font-family: canelabold;
   color: var(--bleu);
+}
+
+#paysages .cadeau-box {
+  align-items: center;
 }
 
 #paysages .box-photo img {
@@ -1375,6 +1262,7 @@ div.star-rating {
   filter: grayscale(50%) saturate(0.8) hue-rotate(85deg);
   width: 80rem;
 }
+
 #contact .filtered {
   margin: 0 0 0 0;
 }
@@ -1410,7 +1298,25 @@ div.star-rating {
 .icones_contact {
   color: var(--bleu);
 }
+@media (max-width: 768px) {
+  .carte {
+    height: 50rem;
+    width: 90%;
+  }
 
+  .carte .filtered {
+    margin: 0 2rem;
+  }
+  #textBox_contact {
+    margin: 0;
+    padding: 2rem 2rem 3rem 3rem;
+    gap: 1rem;
+  }
+
+  .icones_contact {
+    width: 2.4rem;
+  }
+}
 /* Pilote*/
 #pilote {
   background: #103242;
@@ -1423,7 +1329,7 @@ div.star-rating {
 
 #pilote .titre .cross {
   background: #fef8f2;
-  left: 15%;
+  left: 220px;
   top: 5rem;
 }
 
@@ -1484,4 +1390,32 @@ div.star-rating {
   height: 15vh;
 
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #pilote .flexBox {
+    flex-direction: column;
+  }
+  .brevet_box {
+    width: 90%;
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .flexBox {
+    flex-direction: column;
+  }
+  .titre {
+    margin: 2rem;
+    gap: 2rem;
+    padding-top: 0;
+  }
+  .titre .cross {
+    display: none;
+  }
+
+  h4 {
+    font-size: 3.2rem;
+  }
 }

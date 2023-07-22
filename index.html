@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="section1.css" />
     <link rel="stylesheet" href="section_offre.css" />
+    <link rel="stylesheet" href="avis.css" />
     <link rel="stylesheet" href="footer.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -262,7 +263,9 @@
         <img src="icones/viniette-avis.svg" alt="" class="viniette_titre" />
       </div>
       <div class="flex_slider">
-        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--left">
+          <img src="icones/arrow_left.svg" alt="" />
+        </button>
         <div class="slider">
           <div class="slide">
             <div><img src="img/avatar-avis1.webp" alt="" class="avatar" /></div>
@@ -325,7 +328,9 @@
           <div class="dots"></div>
         </div>
 
-        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <button class="slider__btn slider__btn--right">
+          <img src="icones/arrow_right.svg" alt="" />
+        </button>
       </div>
 
       <div id="buttons">
@@ -468,90 +473,92 @@
         id="footer"
         class="text--center text--gold clipPath--mtn2--T pad--5T section parallax bg2"
       >
-        <div class="titre">
-          <img src="icones/logo_indesign.svg" alt="" class="logo" />
-          <div>
-            <h6 id="footer_abaco">
-              abaco <br />
-              à bout d’aile comme un oiseau
-            </h6>
+        <div id="footer-content">
+          <div class="titre">
+            <img src="icones/logo_indesign.svg" alt="" class="logo" />
+            <div>
+              <h6 id="footer_abaco">
+                abaco <br />
+                à bout d’aile comme un oiseau
+              </h6>
 
-            <p>école de parapente dans les Hautes Pyrénées</p>
-          </div>
-        </div>
-        <div class="footer-menu">
-          <ul>
-            <h6>Infos utiles</h6>
-            <li><a href="">Mon compte</a></li>
-            <li><a href="">Calendrier</a></li>
-            <li><a href="">Carte cadeau</a></li>
-            <li><a href="">Hébergements</a></li>
-            <li><a href="">Liens utiles</a></li>
-            <li><a href="">Méteo</a></li>
-            <li><a href="">FAQ</a></li>
-          </ul>
-
-          <ul>
-            <h6>Activités</h6>
-            <li><a href="">Stages</a></li>
-            <li><a href="">Baptêmes</a></li>
-            <li><a href="">Voyages</a></li>
-            <li><a href="">Groupes</a></li>
-            <li><a href="">Brevet</a></li>
-          </ul>
-          <ul>
-            <h6>L’école</h6>
-            <li><a href="">A propos</a></li>
-            <li><a href="">Tarifs</a></li>
-            <li><a href="">Avis clients</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-          <ul>
-            <h6>Horaires</h6>
-            <li>Du mardi au dimanche</li>
-            <li>de 9h à 18h</li>
-            <div class="flexBoxcolumn">
-              <h6>Newseltter</h6>
-              <label for="email"> Restons connecté</label>
-              <input
-                type="email"
-                id="email"
-                pattern=".+@globex\.com"
-                size="30"
-                placeholder="example@email.com"
-              />
-              <a href="" id="btn-newsletter" class="type4">Je m'inscris!</a>
+              <p>école de parapente dans les Hautes Pyrénées</p>
             </div>
-          </ul>
-          <ul id="contact_footer">
-            <h6>Contact</h6>
-            <li>
-              <img
-                src="icones/map-tag.svg"
-                alt=""
-                class="icon_contact"
-                id="location"
-              />
-              <address>
-                39 route d'Azun <br />
-                65400 - AUCUN
-              </address>
-            </li>
-            <li>
-              <img
-                src="icones/phone.svg"
-                alt=""
-                class="icon_contact"
-                id="phone"
-              />
-              <a href="tel:">06 52 84 62 36</a>
-            </li>
-            <li>
-              <img src="icones/mail.svg" alt="" class="icon_contact" />
+          </div>
+          <div class="footer-menu">
+            <ul>
+              <h6>Infos utiles</h6>
+              <li><a href="">Mon compte</a></li>
+              <li><a href="">Calendrier</a></li>
+              <li><a href="">Carte cadeau</a></li>
+              <li><a href="">Hébergements</a></li>
+              <li><a href="">Liens utiles</a></li>
+              <li><a href="">Méteo</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
 
-              <a href="mailto:">abaco@gmail.com</a>
-            </li>
-          </ul>
+            <ul>
+              <h6>Activités</h6>
+              <li><a href="">Stages</a></li>
+              <li><a href="">Baptêmes</a></li>
+              <li><a href="">Voyages</a></li>
+              <li><a href="">Groupes</a></li>
+              <li><a href="">Brevet</a></li>
+            </ul>
+            <ul>
+              <h6>L’école</h6>
+              <li><a href="">A propos</a></li>
+              <li><a href="">Tarifs</a></li>
+              <li><a href="">Avis clients</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+            <ul>
+              <h6>Horaires</h6>
+              <li>Du mardi au dimanche</li>
+              <li>de 9h à 18h</li>
+              <div class="flexBoxcolumn">
+                <h6>Newseltter</h6>
+                <label for="email"> Restons connecté</label>
+                <input
+                  type="email"
+                  id="email"
+                  pattern=".+@globex\.com"
+                  size="30"
+                  placeholder="example@email.com"
+                />
+                <a href="" id="btn-newsletter" class="type4">Je m'inscris!</a>
+              </div>
+            </ul>
+            <ul id="contact_footer">
+              <h6>Contact</h6>
+              <li>
+                <img
+                  src="icones/map-tag.svg"
+                  alt=""
+                  class="icon_contact"
+                  id="location"
+                />
+                <address>
+                  39 route d'Azun <br />
+                  65400 - AUCUN
+                </address>
+              </li>
+              <li>
+                <img
+                  src="icones/phone.svg"
+                  alt=""
+                  class="icon_contact"
+                  id="phone"
+                />
+                <a href="tel:">06 52 84 62 36</a>
+              </li>
+              <li>
+                <img src="icones/mail.svg" alt="" class="icon_contact" />
+
+                <a href="mailto:">abaco@gmail.com</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </span>

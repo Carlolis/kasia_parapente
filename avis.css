@@ -1,0 +1,170 @@
+/* Avis*/
+
+#avis {
+  background: #fff6e0 url("icones/montagnes_fond.svg") no-repeat center;
+
+  padding-bottom: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#avis .cross:after {
+  width: 800px;
+}
+
+#avis .hero_box {
+  margin-top: 19.8rem;
+  margin-bottom: 11.8rem;
+}
+
+#avis .titre h4 {
+  color: var(--bleu);
+}
+/* Container */
+.flex_slider {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+
+.slider {
+  margin: 2rem;
+  min-width: 100rem;
+  position: relative;
+  max-width: 200rem;
+  height: 30rem;
+
+  overflow: hidden;
+  /*  */
+  /* IN THE END */
+  /* */
+}
+
+.slide {
+  position: absolute;
+
+  top: 0;
+  width: 31%;
+  height: 30rem;
+  padding: 2rem;
+
+  transition: transform 1s;
+  background-color: var(--bleu);
+}
+
+.slider__btn {
+  background-color: transparent;
+  border: none;
+
+  /* font-family: inherit;
+    padding-top: 0.2rem;
+  
+    border-radius: 50%;
+    height: 5.5rem;
+    width: 5.5rem;
+    font-size: 3.25rem; */
+  cursor: pointer;
+}
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.comment {
+  color: #f9f9f9;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 0.2rem 0.2rem 1rem 2rem;
+}
+div.star-rating {
+  padding-top: 5%;
+  color: #fcdbbd;
+  font-size: 25px;
+}
+
+.reviewer-info {
+  color: var(--rose);
+  font-family: poppins;
+  font-size: 1.4rem;
+}
+
+#buttons {
+  margin: 5% 0 0 0;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+#btn_avis1 {
+  width: 694px;
+  height: 68px;
+  position: relative;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  margin: 0.8em;
+  padding: 2rem 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #103242;
+  text-align: center;
+  margin: 5rem;
+}
+
+#btn_avis2 {
+  width: 694px;
+  height: 68px;
+  position: relative;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  margin: 0.8em;
+  padding: 2rem 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #103242;
+  text-align: center;
+  margin: 5rem;
+}
+
+#btn_avis2:hover {
+  background-color: #f1d3ce;
+}
+#btn_avis1:hover {
+  background-color: #f2f2f2;
+}
+
+.vector_montagnes {
+  width: 1388px;
+  height: 557px;
+}
+#montagne_box {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    min-width: 30rem;
+    overflow-x: scroll;
+  }
+
+  .slide {
+    width: 100%;
+  }
+
+  .slider__btn {
+    display: none;
+  }
+}
