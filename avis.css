@@ -167,4 +167,8 @@ div.star-rating {
   .slider__btn {
     display: none;
   }
+
+  #buttons {
+    flex-direction: column;
+  }
 }

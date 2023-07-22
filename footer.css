@@ -469,4 +469,17 @@ input {
   .footer_nav {
     display: none;
   }
+
+  .footer-menu {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  #footer_abaco {
+    text-align: center;
+  }
+  #footer h6 {
+    margin: 0;
+    padding-bottom: 1rem;
+  }
 }
