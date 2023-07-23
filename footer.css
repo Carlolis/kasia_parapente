@@ -473,6 +473,12 @@ input {
   .footer-menu {
     flex-direction: column-reverse;
     gap: 0;
+    margin: 0 5%;
+  }
+
+  #contact_footer,
+  #footer ul {
+    padding: 0;
   }
 
   #footer_abaco {
@@ -481,5 +487,19 @@ input {
   #footer h6 {
     margin: 0;
     padding-bottom: 1rem;
+    text-align: center;
+  }
+  #footer .titre {
+    flex-direction: column;
+    margin: 0 5%;
+  }
+
+  #footer .titre p {
+    text-align: center;
+  }
+  #footer .logo {
+    align-self: center;
+    width: 8rem;
+    margin: auto;
   }
 }

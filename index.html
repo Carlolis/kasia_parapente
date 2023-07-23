@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="section_offre.css" />
     <link rel="stylesheet" href="avis.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="hamburgers.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,12 +25,12 @@
       <header>
         <nav>
           <img src="icones/logo2.svg" alt="" class="logo" />
-          <div class="hamburger hamburger--squeeze is-active hover-target">
+          <div class="hamburger hamburger--squeeze">
             <div class="hamburger-box">
               <div class="hamburger-inner"></div>
             </div>
           </div>
-          <div class="categories cursor-scale small">
+          <div class="categories">
             <a href="" id="stages_nav" class="hover-this"
               ><span> Stages</span></a
             >
@@ -405,18 +406,19 @@
             ABACO <br />
             A BOUT D'AILE COMME UN OISEAU
           </h6>
-          <div class="flexBox">
+          <div class="mobile_flex">
             <img src="icones/map-tag.svg" alt="" class="icones_contact" />
             <address>
               39 route d'Azun <br />
               65400 - AUCUN
             </address>
           </div>
-          <div class="flexBox">
+          <div class="mobile_flex">
             <img src="icones/phone.svg" alt="" class="icones_contact" />
             <a href="tel:06 52 84 62 36"> <strong>06 52 84 62 36</strong> </a>
           </div>
-          <div class="flexBox">
+
+          <div class="mobile_flex">
             <img src="icones/mail.svg" alt="" class="icones_contact" />
             <a href="mailto:abaco@gmail.com">
               <strong>abaco@gmail.com</strong></a
@@ -564,14 +566,6 @@
     </span>
 
     <script type="text/javascript" src="slider.js"></script>
-    <script>
-      $(function () {
-        /** attendre chargement du DOM **/ /*** burger ***/ $(
-          ".hamburger"
-        ).click(function () {
-          $(this).toggleClass("is-active");
-        });
-      }); // fin chargement DOM
-    </script>
+    <script type="text/javascript" src="hamburger.js"></script>
   </body>
 </html>

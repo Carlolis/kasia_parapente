@@ -66,6 +66,9 @@
     font-size: 3.25rem; */
   cursor: pointer;
 }
+.slider__btn--right {
+  padding: 0;
+}
 
 .dots {
   position: absolute;
@@ -101,8 +104,6 @@ div.star-rating {
   flex-direction: row;
 }
 #btn_avis1 {
-  width: 50%;
-  height: 68px;
   position: relative;
   border: none;
   background-color: transparent;
@@ -120,8 +121,6 @@ div.star-rating {
 }
 
 #btn_avis2 {
-  width: 50%;
-  height: 68px;
   position: relative;
   border: none;
   background-color: transparent;
@@ -154,12 +153,18 @@ div.star-rating {
 }
 
 @media (max-width: 768px) {
+  #avis {
+    padding-bottom: 0;
+  }
+
+  #avis .titre {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
   #avis_buttons {
     flex-direction: column;
     align-items: center;
-  }
-
-  #btn_avis1 {
   }
 
   .slider {
