@@ -835,25 +835,32 @@ nav .categories a {
         #0b2836 76.7%,
         #103242 100%
       ),
-      url("img/parapente_hero.webp"), no-repeat scroll right;
+      url("img/parapente_hero.webp"), no-repeat scroll right bottom;
     background-size: cover;
-    height: 50vh;
+    width: 100%;
   }
   h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 700;
     color: var(--bleu);
     margin: 2rem 2.5rem;
+    line-height: 40px;
   }
 
   h2 {
-    font-size: 2.4rem;
-    margin: 0 2.5rem;
+    font-size: 1.8rem;
+    margin: 0 3rem;
+    line-height: 40px;
   }
 
   h3 {
-    font-size: 2.4rem;
+    margin: 1rem 3rem;
+    font-size: 2rem;
     line-height: 40px;
+  }
+
+  #hero h3 {
+    margin-bottom: 0;
   }
   nav {
     padding-top: 0;
@@ -874,6 +881,9 @@ nav .categories a {
     display: none;
   }
 
+  #btn-hero {
+    margin-top: 8rem;
+  }
   .hamburger {
     display: inline-block;
   }
@@ -981,6 +991,7 @@ nav .categories a {
   padding-top: 5rem;
   text-align: left;
   padding-right: 5rem;
+  padding-left: 2rem;
 }
 
 .text_box h4 {
@@ -996,14 +1007,6 @@ nav .categories a {
   display: flex;
   align-self: center;
   object-fit: cover;
-}
-
-@media (max-width: 768px) {
-
-  #ecole_img {
-    width: 100%;
-  }
-
 }
 
 .filtered {
@@ -1089,7 +1092,20 @@ nav .categories a {
 #btn-ecole:hover {
   background-color: var(--orange);
 }
+@media (max-width: 768px) {
+  #ecole_img {
+    width: 100%;
+  }
 
+  #ecole_box {
+    flex-direction: column;
+    margin: 5% 0 15% 0;
+  }
+
+  #btn-ecole {
+    font-size: 1.6rem;
+  }
+}
 
 /* Cadeau*/
 
@@ -1170,8 +1186,13 @@ div#cadeau1:hover::after {
 }
 
 @media (max-width: 768px) {
+  #cadeau {
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+  }
   .cadeau-box {
     flex-direction: column;
+    margin: 5rem 0 10rem 0;
   }
   #cadeau .titre {
     padding-top: 0;
@@ -1181,6 +1202,11 @@ div#cadeau1:hover::after {
   }
   h5 {
     font-size: 2.4rem;
+  }
+
+  #btn_cadeau {
+    font-size: 1.6rem;
+    padding: 1em 0.5em;
   }
 }
 /* Paysages*/

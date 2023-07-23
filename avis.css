@@ -154,9 +154,12 @@ div.star-rating {
 }
 
 @media (max-width: 768px) {
-
   #avis_buttons {
     flex-direction: column;
+    align-items: center;
+  }
+
+  #btn_avis1 {
   }
 
   .slider {
